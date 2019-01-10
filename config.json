@@ -7,10 +7,10 @@
     "coinDecimalPlaces": 2,
     "coinDifficultyTarget": 30,
 
-    "daemonType": "default",
+    "daemonType": "bytecoin",
     "cnAlgorithm": "cryptonight_light",
     "cnVariant": 1,
-    "cnBlobType": 0,
+    "cnBlobType": 2,
 
     "logging": {
         "files": {
@@ -105,12 +105,12 @@
         "maxAddresses": 50,
         "mixin": 7,
         "priority": 0,
-        "transferFee": 2,
+        "transferFee": 100,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 100,
-        "maxPayment": 25000,
-        "maxTransactionAmount": 1000,
+        "minPayment": 10000,
+        "maxPayment": 250000,
+        "maxTransactionAmount": 100000,
         "denomination": 100
     },
 
@@ -147,7 +147,8 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8070
+        "port": 8070,
+        "password": "write password"
     },
 
     "redis": {
