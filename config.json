@@ -110,7 +110,7 @@
         "minerPayFee" : true,
         "minPayment": 10000,
         "maxPayment": 250000,
-        "maxTransactionAmount": 100000,
+        "maxTransactionAmount": 0,
         "denomination": 100
     },
 
@@ -132,7 +132,7 @@
         "blocks": 30,
         "payments": 30,
         "password": "admin_pass",
-        "ssl": true,
+        "ssl": false,
         "sslPort": 8119,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",

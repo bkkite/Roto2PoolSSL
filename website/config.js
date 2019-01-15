@@ -1,4 +1,4 @@
-var api = "https://pool.bktrad.com:8117";
+var api = "https://pool.bktrad.com/api";
 
 var email = "bktrad.service@gmail.com";
 var telegram = "https://t.me/YourPool";
